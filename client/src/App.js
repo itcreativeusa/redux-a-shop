@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import {
@@ -15,6 +16,7 @@ import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Nav from "./components/Nav";
+// react-redux Provider
 import { Provider } from "react-redux";
 import store from "./utils/store";
 import Success from "./pages/Success";

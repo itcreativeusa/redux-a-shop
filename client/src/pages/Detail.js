@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 
 import Cart from "../components/Cart";
+// redux hooks
 import { useSelector, useDispatch } from "react-redux";
 import {
   REMOVE_FROM_CART,
@@ -15,6 +16,7 @@ import { idbPromise } from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
 
 function Detail() {
+  // redux hooks
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
   const { id } = useParams();

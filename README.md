@@ -23,9 +23,11 @@ Applicaton is using Redux to manage global state instead of the Context API.
 
 ## Installation
 
-npm install
-npm run seed
-npm run develop
+Run in console from the root folder:
+
+1. `npm install`
+2. `npm run seed`
+3. `npm run develop`
 
 ## Technologies Used
 

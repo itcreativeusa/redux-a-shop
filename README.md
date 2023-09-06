@@ -103,7 +103,7 @@ Screenshot located in `img/` folder
 
 ## Credits
 
-Some code for this assignment was taken and refactored from Activity 26 ofModule 22, provided by Berkeley Bootcamp for studying purposes.
+Some code for this assignment was taken and refactored from Activity 26 of Module 22, provided by Berkeley Bootcamp for studying purposes.
 
 To avoid conflicts of versions, had to downgrade redux to 4.0.5 version.
 Used this links to solve the problem with version conflicts:

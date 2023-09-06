@@ -1,3 +1,4 @@
+// reducer() is a function that accepts the state and an action as parameters, and returns a new state
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -9,7 +10,7 @@ import {
   CLEAR_CART,
   TOGGLE_CART,
 } from "./actions";
-// initialState is an object with the following properties:
+// initialState is an object with the following properties
 const initialState = {
   products: [],
   cart: [],
@@ -17,7 +18,7 @@ const initialState = {
   categories: [],
   currentCategory: "",
 };
-// reducer() is a function that accepts the state and an action as parameters, and returns a new state:
+// reducer() is a function that accepts the state and an action as parameters, and returns a new state
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case UPDATE_PRODUCTS:

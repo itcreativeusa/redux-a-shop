@@ -97,7 +97,7 @@ The application is deployed on Heroku and is connected to a MongoDB database usi
 ## Screenshots
 
 Screenshot located in `img/` folder
-![main page](img/Screenshot.png)
+![main page](./img/Screenshot.png)
 
 ## Credits
 

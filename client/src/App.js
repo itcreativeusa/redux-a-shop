@@ -40,7 +40,8 @@ const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
-
+// Provider wraps the entire application so that the store is available to all components at all times.
+// Store is passed into the Provider as a prop so that it can be accessed by any child component.
 function App() {
   return (
     <ApolloProvider client={client}>

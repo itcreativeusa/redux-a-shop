@@ -105,8 +105,11 @@ Screenshot located in `img/` folder
 
 Some code for this assignment was taken and refactored from Activity 26 of Module 22, provided by Berkeley Bootcamp for studying purposes.
 
-To avoid conflicts of versions, had to downgrade redux to 4.0.5 version.
-Used this links to solve the problem with version conflicts:
+Had conflict with react-router-dom version "react-router-dom": "^6.15.0" had to downgrade to "react-router-dom": "^5.1.2",
+and use Switch instead of Routes in App.js
+here links to the articles that helped me to solve the issue:
+
+[React Router - What's the difference between Router and Switch](https://stackoverflow.com/questions/66313344/react-router-whats-the-difference-between-router-and-switch)
 
 [Difference between Route exact path and Route path](https://stackoverflow.com/questions/49162311/react-difference-between-route-exact-path-and-route-path)
 

@@ -113,8 +113,6 @@ here links to the articles that helped me to solve the issue:
 
 [Difference between Route exact path and Route path](https://stackoverflow.com/questions/49162311/react-difference-between-route-exact-path-and-route-path)
 
-[How to downgrade react-redux](https://github.com/reduxjs/react-redux/issues/1112)
-
 [React-Redux 6 doesn't trigger state/changes](https://github.com/reduxjs/react-redux/issues/1145)
 
 ## License
